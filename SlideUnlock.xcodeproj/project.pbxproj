@@ -15,6 +15,8 @@
 		A0FC24731D6C168200EC1B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0FC24711D6C168200EC1B87 /* LaunchScreen.storyboard */; };
 		A0FC247E1D6C168300EC1B87 /* SlideUnlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC247D1D6C168300EC1B87 /* SlideUnlockTests.m */; };
 		A0FC24891D6C168300EC1B87 /* SlideUnlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC24881D6C168300EC1B87 /* SlideUnlockUITests.m */; };
+		A0FC24981D6C16BB00EC1B87 /* CheckCodeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC24971D6C16BB00EC1B87 /* CheckCodeSlider.m */; };
+		A0FC249A1D6C19EE00EC1B87 /* 屏幕快照 2016-08-23 下午1.43.00.png in Resources */ = {isa = PBXBuildFile; fileRef = A0FC24991D6C19EE00EC1B87 /* 屏幕快照 2016-08-23 下午1.43.00.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A0FC24841D6C168300EC1B87 /* SlideUnlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideUnlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0FC24881D6C168300EC1B87 /* SlideUnlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideUnlockUITests.m; sourceTree = "<group>"; };
 		A0FC248A1D6C168300EC1B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0FC24961D6C16BB00EC1B87 /* CheckCodeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckCodeSlider.h; sourceTree = "<group>"; };
+		A0FC24971D6C16BB00EC1B87 /* CheckCodeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckCodeSlider.m; sourceTree = "<group>"; };
+		A0FC24991D6C19EE00EC1B87 /* 屏幕快照 2016-08-23 下午1.43.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-08-23 下午1.43.00.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				A0FC24671D6C168200EC1B87 /* AppDelegate.m */,
 				A0FC24691D6C168200EC1B87 /* ViewController.h */,
 				A0FC246A1D6C168200EC1B87 /* ViewController.m */,
+				A0FC24961D6C16BB00EC1B87 /* CheckCodeSlider.h */,
+				A0FC24971D6C16BB00EC1B87 /* CheckCodeSlider.m */,
+				A0FC24991D6C19EE00EC1B87 /* 屏幕快照 2016-08-23 下午1.43.00.png */,
 				A0FC246C1D6C168200EC1B87 /* Main.storyboard */,
 				A0FC246F1D6C168200EC1B87 /* Assets.xcassets */,
 				A0FC24711D6C168200EC1B87 /* LaunchScreen.storyboard */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0FC24731D6C168200EC1B87 /* LaunchScreen.storyboard in Resources */,
+				A0FC249A1D6C19EE00EC1B87 /* 屏幕快照 2016-08-23 下午1.43.00.png in Resources */,
 				A0FC24701D6C168200EC1B87 /* Assets.xcassets in Resources */,
 				A0FC246E1D6C168200EC1B87 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FC24981D6C16BB00EC1B87 /* CheckCodeSlider.m in Sources */,
 				A0FC246B1D6C168200EC1B87 /* ViewController.m in Sources */,
 				A0FC24681D6C168200EC1B87 /* AppDelegate.m in Sources */,
 				A0FC24651D6C168200EC1B87 /* main.m in Sources */,
